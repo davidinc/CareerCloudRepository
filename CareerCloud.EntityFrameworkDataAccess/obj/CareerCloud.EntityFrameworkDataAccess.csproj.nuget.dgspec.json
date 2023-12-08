@@ -1,0 +1,346 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.EntityFrameworkDataAccess\\CareerCloud.EntityFrameworkDataAccess.csproj": {}
+  },
+  "projects": {
+    "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.ADODataAccessLayer\\CareerCloud.ADODataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.ADODataAccessLayer\\CareerCloud.ADODataAccessLayer.csproj",
+        "projectName": "CareerCloud.ADODataAccessLayer",
+        "projectPath": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.ADODataAccessLayer\\CareerCloud.ADODataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.ADODataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj": {
+                "projectPath": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj"
+              },
+              "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj": {
+                "projectPath": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.BusinessLogicLayer\\CareerCloud.BusinessLogicLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.BusinessLogicLayer\\CareerCloud.BusinessLogicLayer.csproj",
+        "projectName": "CareerCloud.BusinessLogicLayer",
+        "projectPath": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.BusinessLogicLayer\\CareerCloud.BusinessLogicLayer.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.BusinessLogicLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj": {
+                "projectPath": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj"
+              },
+              "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj": {
+                "projectPath": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj",
+        "projectName": "CareerCloud.DataAccessLayer",
+        "projectPath": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.EntityFrameworkDataAccess\\CareerCloud.EntityFrameworkDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.EntityFrameworkDataAccess\\CareerCloud.EntityFrameworkDataAccess.csproj",
+        "projectName": "CareerCloud.EntityFrameworkDataAccess",
+        "projectPath": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.EntityFrameworkDataAccess\\CareerCloud.EntityFrameworkDataAccess.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.EntityFrameworkDataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.ADODataAccessLayer\\CareerCloud.ADODataAccessLayer.csproj": {
+                "projectPath": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.ADODataAccessLayer\\CareerCloud.ADODataAccessLayer.csproj"
+              },
+              "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.BusinessLogicLayer\\CareerCloud.BusinessLogicLayer.csproj": {
+                "projectPath": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.BusinessLogicLayer\\CareerCloud.BusinessLogicLayer.csproj"
+              },
+              "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj": {
+                "projectPath": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj"
+              },
+              "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj": {
+                "projectPath": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "EntityFrameworkCore.Extensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Extensions.Configuration": {
+              "target": "Package",
+              "version": "[0.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj",
+        "projectName": "CareerCloud.Pocos",
+        "projectPath": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\personal\\Programming\\Assignment_Project\\CareerCloudRepository\\CareerCloud.Pocos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

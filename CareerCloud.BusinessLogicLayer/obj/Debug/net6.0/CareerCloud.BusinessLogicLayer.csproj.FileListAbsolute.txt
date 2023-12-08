@@ -1,0 +1,34 @@
+C:\personal\Programming\Assignment Second\Test_CareerCloud-master\CareerCloud.BusinessLogicLayer\bin\Debug\net6.0\CareerCloud.BusinessLogicLayer.deps.json
+C:\personal\Programming\Assignment Second\Test_CareerCloud-master\CareerCloud.BusinessLogicLayer\bin\Debug\net6.0\CareerCloud.BusinessLogicLayer.dll
+C:\personal\Programming\Assignment Second\Test_CareerCloud-master\CareerCloud.BusinessLogicLayer\bin\Debug\net6.0\CareerCloud.BusinessLogicLayer.pdb
+C:\personal\Programming\Assignment Second\Test_CareerCloud-master\CareerCloud.BusinessLogicLayer\bin\Debug\net6.0\CareerCloud.DataAccessLayer.dll
+C:\personal\Programming\Assignment Second\Test_CareerCloud-master\CareerCloud.BusinessLogicLayer\bin\Debug\net6.0\CareerCloud.Pocos.dll
+C:\personal\Programming\Assignment Second\Test_CareerCloud-master\CareerCloud.BusinessLogicLayer\bin\Debug\net6.0\CareerCloud.DataAccessLayer.pdb
+C:\personal\Programming\Assignment Second\Test_CareerCloud-master\CareerCloud.BusinessLogicLayer\bin\Debug\net6.0\CareerCloud.Pocos.pdb
+C:\personal\Programming\Assignment Second\Test_CareerCloud-master\CareerCloud.BusinessLogicLayer\obj\Debug\net6.0\CareerCloud.BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\personal\Programming\Assignment Second\Test_CareerCloud-master\CareerCloud.BusinessLogicLayer\obj\Debug\net6.0\CareerCloud.BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\personal\Programming\Assignment Second\Test_CareerCloud-master\CareerCloud.BusinessLogicLayer\obj\Debug\net6.0\CareerCloud.BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\personal\Programming\Assignment Second\Test_CareerCloud-master\CareerCloud.BusinessLogicLayer\obj\Debug\net6.0\CareerCloud.BusinessLogicLayer.AssemblyInfo.cs
+C:\personal\Programming\Assignment Second\Test_CareerCloud-master\CareerCloud.BusinessLogicLayer\obj\Debug\net6.0\CareerCloud.BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\personal\Programming\Assignment Second\Test_CareerCloud-master\CareerCloud.BusinessLogicLayer\obj\Debug\net6.0\CareerCloud.BusinessLogicLayer.csproj.CopyComplete
+C:\personal\Programming\Assignment Second\Test_CareerCloud-master\CareerCloud.BusinessLogicLayer\obj\Debug\net6.0\CareerCloud.BusinessLogicLayer.dll
+C:\personal\Programming\Assignment Second\Test_CareerCloud-master\CareerCloud.BusinessLogicLayer\obj\Debug\net6.0\refint\CareerCloud.BusinessLogicLayer.dll
+C:\personal\Programming\Assignment Second\Test_CareerCloud-master\CareerCloud.BusinessLogicLayer\obj\Debug\net6.0\CareerCloud.BusinessLogicLayer.pdb
+C:\personal\Programming\Assignment Second\Test_CareerCloud-master\CareerCloud.BusinessLogicLayer\obj\Debug\net6.0\ref\CareerCloud.BusinessLogicLayer.dll
+C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.BusinessLogicLayer\bin\Debug\net6.0\CareerCloud.BusinessLogicLayer.deps.json
+C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.BusinessLogicLayer\bin\Debug\net6.0\CareerCloud.BusinessLogicLayer.dll
+C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.BusinessLogicLayer\bin\Debug\net6.0\CareerCloud.BusinessLogicLayer.pdb
+C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.BusinessLogicLayer\bin\Debug\net6.0\CareerCloud.DataAccessLayer.dll
+C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.BusinessLogicLayer\bin\Debug\net6.0\CareerCloud.Pocos.dll
+C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.BusinessLogicLayer\bin\Debug\net6.0\CareerCloud.DataAccessLayer.pdb
+C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.BusinessLogicLayer\bin\Debug\net6.0\CareerCloud.Pocos.pdb
+C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.BusinessLogicLayer\obj\Debug\net6.0\CareerCloud.BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.BusinessLogicLayer\obj\Debug\net6.0\CareerCloud.BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.BusinessLogicLayer\obj\Debug\net6.0\CareerCloud.BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.BusinessLogicLayer\obj\Debug\net6.0\CareerCloud.BusinessLogicLayer.AssemblyInfo.cs
+C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.BusinessLogicLayer\obj\Debug\net6.0\CareerCloud.BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.BusinessLogicLayer\obj\Debug\net6.0\CareerCloud.BusinessLogicLayer.csproj.CopyComplete
+C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.BusinessLogicLayer\obj\Debug\net6.0\CareerCloud.BusinessLogicLayer.dll
+C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.BusinessLogicLayer\obj\Debug\net6.0\refint\CareerCloud.BusinessLogicLayer.dll
+C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.BusinessLogicLayer\obj\Debug\net6.0\CareerCloud.BusinessLogicLayer.pdb
+C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.BusinessLogicLayer\obj\Debug\net6.0\ref\CareerCloud.BusinessLogicLayer.dll
