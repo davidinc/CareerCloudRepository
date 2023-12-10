@@ -246,25 +246,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.4, )"
-            },
-            "EntityFrameworkCore.Extensions": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "Extensions.Configuration": {
-              "target": "Package",
-              "version": "[0.0.4, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.0, )"
             },
-            "System.Data.SqlClient": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[4.8.5, )"
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
