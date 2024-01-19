@@ -49,3 +49,4 @@ C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.ADO
 C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.ADODataAccessLayer\obj\Debug\net6.0\refint\CareerCloud.ADODataAccessLayer.dll
 C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.ADODataAccessLayer\obj\Debug\net6.0\CareerCloud.ADODataAccessLayer.pdb
 C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.ADODataAccessLayer\obj\Debug\net6.0\ref\CareerCloud.ADODataAccessLayer.dll
+C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.ADODataAccessLayer\obj\Debug\net6.0\CareerCloud.ADODataAccessLayer.sourcelink.json

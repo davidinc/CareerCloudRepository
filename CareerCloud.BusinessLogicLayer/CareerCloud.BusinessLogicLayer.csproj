@@ -7,6 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="C:\Users\PC\.nuget\packages\faker.data.core\1.0.0\contentFiles\any\netstandard2.0\blizkrieglogo300.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Faker.Data.Core" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CareerCloud.DataAccessLayer\CareerCloud.DataAccessLayer.csproj" />
     <ProjectReference Include="..\CareerCloud.Pocos\CareerCloud.Pocos.csproj" />
   </ItemGroup>

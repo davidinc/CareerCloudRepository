@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CareerCloud.DataAccessLayer;
+﻿using CareerCloud.DataAccessLayer;
 using CareerCloud.Pocos;
 
 namespace CareerCloud.BusinessLogicLayer
@@ -59,9 +54,9 @@ namespace CareerCloud.BusinessLogicLayer
         }
 
 
-        public SystemLanguageCodePoco Get()
+        public SystemLanguageCodePoco Get(string langId)
         {
-            return GetAll().FirstOrDefault();
+            return _repository.GetSingle(c => c.LanguageID == langId);
         }
 
         public virtual void Add(SystemLanguageCodePoco[] pocos)

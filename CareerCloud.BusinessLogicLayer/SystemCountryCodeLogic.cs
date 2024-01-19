@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CareerCloud.DataAccessLayer;
+﻿using CareerCloud.DataAccessLayer;
 using CareerCloud.Pocos;
 
 namespace CareerCloud.BusinessLogicLayer
@@ -53,10 +48,9 @@ namespace CareerCloud.BusinessLogicLayer
             return _repository.GetAll().ToList();
         }
 
-        public  SystemCountryCodePoco Get()
+        public SystemCountryCodePoco Get(string Code)
         {
-
-            return GetAll().FirstOrDefault();
+            return _repository.GetSingle(c => c.Code == Code);
         }
 
 

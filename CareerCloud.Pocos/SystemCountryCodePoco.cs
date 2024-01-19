@@ -7,10 +7,10 @@ namespace CareerCloud.Pocos
     [Table("System_Country_Codes")]
     public class SystemCountryCodePoco
     {
-        [Column("Code")]
+        
         [Key]
         public string? Code { get; set; }
-        [Column("Name")]
+       
         public string? Name { get; set; }
 
         //Virtual link with affiliate table

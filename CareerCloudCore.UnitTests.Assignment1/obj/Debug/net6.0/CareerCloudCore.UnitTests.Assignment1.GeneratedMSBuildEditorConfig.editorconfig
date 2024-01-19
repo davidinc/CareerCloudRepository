@@ -9,3 +9,5 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CareerCloudCore.UnitTests.Assignment1
 build_property.ProjectDir = C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloudCore.UnitTests.Assignment1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,13 +1,4 @@
-﻿using CareerCloud.BusinessLogicLayer;
-using CareerCloud.DataAccessLayer;
-using CareerCloud.Pocos;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data.SqlClient;
+﻿using CareerCloud.DataAccessLayer;
 
 namespace CareerCloud.EntityFrameworkDataAccess
 {
@@ -23,7 +14,6 @@ namespace CareerCloud.EntityFrameworkDataAccess
 
             using (CareerCloudContext context = new CareerCloudContext(cs))
             {
-
                 foreach (var item in items)
                 {
                     context.Add(item);

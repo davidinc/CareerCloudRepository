@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+    <Content Remove="C:\Users\PC\.nuget\packages\faker.data.core\1.0.0\contentFiles\any\netstandard2.0\blizkrieglogo300.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Faker.Data.Core" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>

@@ -19,3 +19,4 @@ C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.Ent
 C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.EntityFrameworkDataAccess\obj\Debug\net6.0\refint\CareerCloud.EntityFrameworkDataAccess.dll
 C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.EntityFrameworkDataAccess\obj\Debug\net6.0\CareerCloud.EntityFrameworkDataAccess.pdb
 C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.EntityFrameworkDataAccess\obj\Debug\net6.0\ref\CareerCloud.EntityFrameworkDataAccess.dll
+C:\personal\Programming\Assignment_Project\CareerCloudRepository\CareerCloud.EntityFrameworkDataAccess\obj\Debug\net6.0\CareerCloud.EntityFrameworkDataAccess.sourcelink.json

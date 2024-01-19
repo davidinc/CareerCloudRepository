@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:DataConnection",
+      "dynamicId": null
+    },
+    "appInsights1": {
+      "type": "appInsights",
+      "dynamicId": null
+    }
+  }
+}
