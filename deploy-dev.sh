@@ -136,12 +136,13 @@ build_application() {
     cd "$SCRIPT_DIR/.."
     
     # Restore packages
-    log_info "Restoring NuGet packages..."
-    dotnet restore --nologo --quiet 2>/dev/null || dotnet restore --nologo
-    
+    log_info "Restoring NuGet packages for Web API project..."
+    PROJECT_PATH="CareerCloud.WebAPI/CareerCloud.WebAPI.csproj"
+    dotnet restore "$PROJECT_PATH" --nologo || dotnet restore "$PROJECT_PATH"
+
     # Build
-    log_info "Building solution (Release mode)..."
-    dotnet build --configuration Release --nologo /p:WarningLevel=0 2>/dev/null || true
+    log_info "Building Web API project (Release mode)..."
+    dotnet build "$PROJECT_PATH" --configuration Release --nologo /p:WarningLevel=0
     
     # Publish
     log_info "Publishing Web API..."

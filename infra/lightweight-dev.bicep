@@ -25,13 +25,16 @@ param mongoDbConnection string = 'mongodb+srv://user:password@cluster.xxxxx.mong
 @description('Enable Application Insights monitoring')
 param enableAppInsights bool = true
 
+@description('Template creation timestamp')
+param createdDate string = utcNow()
+
 // Variables
 var tags = {
   environment: environmentName
   project: 'CareerCloud'
   deployedBy: 'Bicep'
   costCenter: 'Development'
-  createdDate: utcNow('yyyy-MM-dd')
+  createdDate: createdDate
 }
 
 var appServicePlanName = 'plan-careercloud-${environmentName}-${substring(uniqueString(resourceGroup().id), 0, 4)}'
@@ -121,11 +124,11 @@ resource webApp 'Microsoft.Web/sites@2022-03-01' = {
         }
         // Logging Configuration
         {
-          name: 'Logging:LogLevel:Default'
+          name: 'Logging__LogLevel__Default'
           value: 'Information'
         }
         {
-          name: 'Logging:LogLevel:Microsoft'
+          name: 'Logging__LogLevel__Microsoft'
           value: 'Warning'
         }
       ]
@@ -137,7 +140,9 @@ resource webApp 'Microsoft.Web/sites@2022-03-01' = {
     name: 'logs'
     properties: {
       applicationLogs: {
-        fileSystemLevel: 'Information'
+        fileSystem: {
+          level: 'Information'
+        }
         azureBlobStorage: {
           level: 'Off'
           sasUrl: ''
@@ -170,52 +175,8 @@ resource webApp 'Microsoft.Web/sites@2022-03-01' = {
   }
 }
 
-// ============================================
-// Diagnostic Settings
-// ============================================
-resource appServiceDiagnostics 'Microsoft.Insights/diagnosticSettings@2021-05-01-preview' = if(enableAppInsights) {
-  name: 'AppService-Dev-Diagnostics'
-  scope: webApp
-  properties: {
-    workspaceId: ''
-    logs: [
-      {
-        category: 'AppServiceHTTPLogs'
-        enabled: true
-        retentionPolicy: {
-          enabled: true
-          days: 2 // Reduced for cost
-        }
-      }
-      {
-        category: 'AppServiceConsoleLogs'
-        enabled: true
-        retentionPolicy: {
-          enabled: true
-          days: 2
-        }
-      }
-      {
-        category: 'AppServiceAppLogs'
-        enabled: true
-        retentionPolicy: {
-          enabled: true
-          days: 2
-        }
-      }
-    ]
-    metrics: [
-      {
-        category: 'AllMetrics'
-        enabled: true
-        retentionPolicy: {
-          enabled: true
-          days: 2
-        }
-      }
-    ]
-  }
-}
+// Diagnostic settings omitted in lightweight dev template to avoid extra sinks
+// (No Log Analytics workspace configured for cost optimization)
 
 // ============================================
 // Outputs
