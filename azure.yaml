@@ -1,0 +1,14 @@
+app: careercloud
+services:
+  api:
+    project: ./CareerCloud.WebAPI
+    language: csharp
+    host: appservice
+    dist: ./code/app.zip
+
+infra:
+  template: ./infra/main.bicep
+  parameters: ./infra/main.parameters.json
+
+metadata:
+  template: careercloud-dotnet6@0.1.0
